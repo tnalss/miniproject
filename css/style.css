@@ -13,6 +13,9 @@ body {
 	font-family: 'Noto Sans KR', sans-serif;
 	line-height: 1.6;
 }
+*{
+	box-sizing: border-box;
+}
 
 /*************header****************/
 
@@ -34,6 +37,6 @@ body {
 /****미디어 태그****/
 @media screen and (max-width: 480px) {
 	body {
-		background-color: red;
+		background-color: black;
 	}
 }
