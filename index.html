@@ -1,39 +1,126 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Insert title here</title>
-<link href="images/favicon.png" rel="shortcut icon">
-<link href="css/reset.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-
-<script
-	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
-	integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
-	crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>마루과학</title>
+	<link href="images/favicon.png" rel="shortcut icon">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<!-- 메타태그도 넣을 것 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+		integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <body>
+<nav class="nav-bar nav-top">
+			<h2 class="d-none">navigation top</h2>
+			<ul class="tnb">
+				<li><a href="login.html">로그인</a></li>
+				<li><a href="join.html">회원가입</a></li>
+				<li><a href="cart.html">장바구니</a></li>
+				<li><a href="order.html">주문조회</a></li>
+			</ul>
+		</nav>
 
-<h1 class="d-none"></h1>
+	<h1 class="d-none">마루과학</h1>
+	<header>
+		
 
-<header>
+		<div class="container">
+			<div class="mainlogo">
+				<div class="logoimg">
+					<img src="images/logo.png" alt="Company Logo">
+				</div>
+				<div class="search">
+					<form action="searchForm" name="searchForm" method="post">
 
-</header>
+						<input type="text" name="product_search" id="product_search">
 
-<section>
-<article>h2</article>
+						<input type="image" src="images/search.png" alt="검색">
+					</form>
+				</div>
+			</div>
+		</div>
 
-</section>
+		<!-- 글로벌 내비 만들어야 됨 -->
+		<nav class="nav-bar nav-gnb">
+			<ul class="gnb">
+				<li><a href="#">홈</a></li>
+				<li><a href="#">회사소개</a></li>
+				<li><a href="#">추천상품</a></li>
+				<li><a href="#">인기상품</a></li>
+				<li><a href="#">신규상품</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<section>
+		<article>
+			<h2 class="d-none">Notice and Events</h2>
+			<div class="container">
+				<div class="carousel">
+					<div class="events">
+						<div class="event">
+							<a href=""><img src="images/main.png" alt="visual"></a>
+						</div>
+						<div class="event">
+							<a href=""><img src="images/main.png" alt="visual"></a>
+
+						</div>
+						<div class="event">
+							<a href=""><img src="images/main.png" alt="visual"></a>
+
+						</div>
+					</div>
+					<div class="pager">
+						<a href="#"> <span>1</span>
+						</a> <a href="#"> <span>2</span>
+						</a> <a href="#"> <span>3</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</article>
 
 
-<aside></aside>
+		<article>
+
+			<h2>인기 상품</h2>
+			<div class="container">
+
+
+			</div>
+		</article>
+
+		<article>
+			<h2>신규 상품</h2>
+			<div class="container">
+
+
+			</div>
+		</article>
+	</section>
+
+
+	<aside>
+		<!-- 사이드메뉴 top -->
+
+	</aside>
 
 
 
-<footer></footer>
+	<footer>
+		<address>
+			<p>사업자등록번호 : 602-23-50834 통신판매번호 : 제2019-광주북구-0127호</p>
+			<p>광주광역시 북구 설죽로 202번길 35, 2F 202호 대표 : 이주열</p>
+			<p>COPYRIGHT&copy; 2022 MarooScience ALL RIGHTS RESERVED.</p>
+		</address>
+
+	</footer>
 
 
 
@@ -42,6 +129,7 @@
 
 
 
-<script src="script/main.js"></script>
+	<script src="script/main.js"></script>
 </body>
+
 </html>
