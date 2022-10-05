@@ -58,7 +58,6 @@ h2 {
 }
 
 .nav-top {
-
 	background-color: black;
 	color: white;
 	position: sticky;
@@ -93,11 +92,6 @@ h2 {
 	align-items: center;
 }
 
-/**fortest**/
-.height {
-	min-height: 2000px;
-}
-/***/
 
 .mainlogo form input:nth-child(1) {
 	/* border: 4px solid black; */
@@ -191,10 +185,10 @@ h2 {
 	color:white;
 	display: none;
 }
-.greyoverlay img{
+.greyoverlay p{
 	height: 5rem;
 	position: inherit;
-	top: calc(50% - 2.5rem);
+	top: calc(50% - 0.5rem);
 	left: calc(50% - 2.5rem);
 }
 .productsList li:hover .greyoverlay{
@@ -208,20 +202,20 @@ h2 {
 }
 
 .seeMore1{
-	width:10rem;
+	width: 5rem;
 	border: 1px solid black;
 	
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	color:white;
 	background-color: black;
 	margin:2rem auto;
 	text-align: center;
 }
 .seeMore2{
-	width:10rem;
+	width:5rem;
 	border: 1px solid black;
 	
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	color:white;
 	background-color: black;
 	margin:2rem auto;
@@ -298,6 +292,7 @@ address p:nth-child(3){
 }
 .contact ul{
 	display: flex;
+	column-gap: .4rem;
 }
 .contact ul li img{
 	width:2rem;
