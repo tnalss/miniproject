@@ -290,7 +290,18 @@ address {
 address p:nth-child(3){
 	font-size:.6rem;
 }
-
+/*****sidenav***/
+.nav-side{
+	position: fixed;
+	right: 10%;
+	top:80%;
+}
+.contact ul{
+	display: flex;
+}
+.contact ul li img{
+	width:2rem;
+}
 
 
 
