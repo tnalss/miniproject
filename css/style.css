@@ -106,7 +106,9 @@ h2 {
 	border: none;
 
 }
-
+.tnb li:hover{
+	color: rgb(106, 94, 114);
+}
 .gnb {
 	display: flex;
 	column-gap: 2rem;
@@ -203,8 +205,6 @@ h2 {
 
 .seeMore1{
 	width: 5rem;
-	border: 1px solid black;
-	
 	font-size: 1.5rem;
 	color:white;
 	background-color: black;
@@ -213,8 +213,6 @@ h2 {
 }
 .seeMore2{
 	width:5rem;
-	border: 1px solid black;
-	
 	font-size: 1.5rem;
 	color:white;
 	background-color: black;
@@ -298,6 +296,67 @@ address p:nth-child(3){
 	width:2rem;
 }
 
+/********회사소개*******/
+.company-intro h3{
+	font-size: 2rem;
+	padding: 2rem;
+}
+.introduce{
+	display: inline-block;
+}
+.ceoimg{
+	float:left;
+	
+}
+.ceoimg img{
+	height: 15rem;
+}
+.ceodetail{
+	
+	text-align: left;
+}
+.ceodetail h4{
+	text-indent: 2rem;
+	font-size: 1.8rem;
+	margin-top: 2rem;
+}
+.ceodetail p{
+	font-size: 1.3rem;
+	padding-left: 14rem;
+
+}
+.ceodetail p::after{
+	clear: both;
+}
+.year-detail{
+	list-style: square;
+}
+.year-ul{
+	background-color: #f3f3f3;
+	padding: 1rem 0 1rem 0;
+
+}
+.year-detail{
+	text-align: left;
+	margin-left: 2rem;
+}
+.company-img img{
+	width:20rem;
+}
+.company-desc p{
+	width: 30rem;
+	float:left;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+	font-size:1.3rem;
+	text-align: left;
+}
+.deliveryimg img{
+	width:20rem;
+}
+.deliveryinfo{
+	margin-bottom: 3rem;
+}
 
 
 /****미디어 태그****/
