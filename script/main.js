@@ -9,7 +9,15 @@ window.addEventListener("DOMContentLoaded", function () {
 	const SECOND = document.querySelector(".second");
 	const THIRD = document.querySelector(".third");
 	const EVENTS = document.querySelector(".events");
+	const SEEMORE1 = document.querySelector(".seeMore1");
+	const SEEMORE2 = document.querySelector(".seeMore2");
+	const CONTAINER1 = document.querySelector(".productheight1")
+	const CONTAINER2 = document.querySelector(".productheight2")
+	// const CHOO = document.querySelector(".choo")
+	// const DROPMENUCHOO = document.querySelector(".dropMenu")
 	let count = 0;
+	let on1 =0;
+	let on2=0;
 
 	const AUTO = setInterval(autoSlide, 4000);
 	function autoSlide() {
@@ -36,7 +44,7 @@ window.addEventListener("DOMContentLoaded", function () {
 	}
 
 	FIRST.addEventListener("click", function (e) {
-		console.dir(e);
+		//console.dir(e);
 		EVENTS.style.marginLeft = "0px";
 		FIRST.classList.add("pagerblack");
 		SECOND.classList.remove("pagerblack");
@@ -61,6 +69,27 @@ window.addEventListener("DOMContentLoaded", function () {
 	SEARCHBTN.addEventListener("click",function(){
 		alert("기능 구현 중입니다.");
 	})
+	SEEMORE1.addEventListener("click",function(e){
+		e.preventDefault();
+		CONTAINER1.classList.toggle("height6");
+	if (on1==0)
+		SEEMORE1.textContent="닫기";
+	if (on1==1)
+		SEEMORE1.textContent="더보기";
+	on2=!on2;
+	})
+	SEEMORE2.addEventListener("click",function(e){
+		e.preventDefault();
+		CONTAINER2.classList.toggle("height6");
+		if (on2==0)
+			SEEMORE2.textContent="닫기";
+		if (on2==1)
+			SEEMORE2.textContent="더보기";
+		on2=!on2;
 
-
+	})
+	
+	// CHOO.addEventListener("click",function(){
+	// 	DROPMENUCHOO.classList.toggle("d-none");
+	// })
 })

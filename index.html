@@ -39,7 +39,7 @@
 				<div class="search">
 					<form action="searchForm" name="searchForm" method="post">
 
-						<input type="text" name="product_search" id="product_search">
+						<input type="text" name="product_search" id="product_search" placeholder="물품명을 입력하세요.">
 
 						<input type="image" src="images/search.png" id="searchBtn" alt="검색">
 					</form>
@@ -52,9 +52,36 @@
 			<ul class="gnb">
 				<li><a href="index.html">홈</a></li>
 				<li><a href="company.html">회사소개</a></li>
-				<li><a href="#">추천상품</a></li>
-				<li><a href="#">인기상품</a></li>
-				<li><a href="#">신규상품</a></li>
+				<li class="pos-relative choo"><a href="#">추천상품</a>
+					<div class="dropMenu pos-absolute dr-none">
+						<ul>
+							<li><a href="#">이달의 추천 상품</a></li>
+							<li><a href="#">초등학교 상품</a></li>
+							<li><a href="#">중등학교 상품</a></li>
+							<li><a href="#">고등학교 상품</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="pos-relative"><a href="#">인기상품</a>
+					<div class="dropMenu2 pos-absolute dr-none">
+						<ul>
+							<li><a href="#">이달의 인기 상품</a></li>
+							<li><a href="#">초등학교 상품</a></li>
+							<li><a href="#">중등학교 상품</a></li>
+							<li><a href="#">고등학교 상품</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="pos-relative"><a href="#">신규상품</a>
+					<div class="dropMenu3 pos-absolute dr-none">
+						<ul>
+							<li><a href="#">이달의 추천 상품</a></li>
+							<li><a href="#">초등학교 상품</a></li>
+							<li><a href="#">중등학교 상품</a></li>
+							<li><a href="#">고등학교 상품</a></li>
+						</ul>
+					</div>
+				</li>
 			</ul>
 		</nav>
 
@@ -92,7 +119,7 @@
 		<article>
 
 			<h2 class="mt-100 md-50">인기 상품</h2>
-			<div class="container">
+			<div class="container height6 productheight1">
 
 				<ul class="productsList">
 					<li>
@@ -109,70 +136,304 @@
 					</li>
 					<li>
 						<div class="overlay">
-							<div class="greyoverlay">
-								<img src="images/cart.png" alt="장바구니">
-							</div>
-							<div class="productImg">
-								<img src="images/b1.jpg" alt="심장박동 시뮬레이션">
-							</div>
-							<p>심장박동 시뮬레이션</p>
-							<p>88,000원</p>
+							<a href="#">
+								<div class="greyoverlay">
+									<img src="images/cart.png" alt="장바구니">
+								</div>
+								<div class="productImg">
+									<img src="images/b1.jpg" alt="심장박동 시뮬레이션">
+								</div>
+								<p>심장박동 시뮬레이션</p>
+								<p>88,000원</p>
+							</a>
 						</div>
 					</li>
 					<li>
 						<div class="overlay">
+							<a href="#"></a>
 							<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
 							<div class="productImg">
 								<img src="images/c1.jpg" alt="개구리알">
 							</div>
 							<p>개구리알</p>
 							<p>18,000원</p>
+							</a>
 						</div>
 					</li>
 					<li>
 						<div class="overlay">
-							<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
-							<div class="productImg">
-								<img src="images/d.jpg" alt="개미사육상자">
-							</div>
-							<p>개미사육상자</p>
-							<p>39,600원</p>
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
 						</div>
 					</li>
 					<li>
 						<div class="overlay">
-							<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
-							<div class="productImg">
-								<img src="images/e.jpg" alt="부레옥잠">
-							</div>
-							<p>부레옥잠</p>
-							<p>8,800원</p>
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/e.jpg" alt="부레옥잠">
+								</div>
+								<p>부레옥잠</p>
+								<p>8,800원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay"><a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/f.png" alt="안면인식 열화상카메라">
+								</div>
+								<p>안면인식 열화상카메라</p>
+								<p>2,000,000원</p>
+							</a>
 						</div>
 					</li>
 					<li>
 						<div class="overlay">
-							<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
-							<div class="productImg">
-								<img src="images/f.png" alt="안면인식 열화상카메라">
-							</div>
-							<p>안면인식 열화상카메라</p>
-							<p>2,000,000원</p>
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
 						</div>
 					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+
 				</ul>
 
 			</div>
 		</article>
-
+		<div class="seeMore1">
+			<a href="#">더보기</a>
+		</div>
 		<article>
 			<h2 class="mt-100 md-50">신규 상품</h2>
-			<div class="container height">
+			<div class="container height6 productheight2">
+				<ul class="productsList">
+					<li>
+						<div class="overlay">
+							<div class="greyoverlay">
+								<img src="images/cart.png" alt="장바구니">
+							</div>
+							<div class="productImg">
+								<img src="images/g1.jpg" alt="빛합성장치">
+							</div>
+							<p>빛합성장치</p>
+							<p>451,000원</p>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay">
+									<img src="images/cart.png" alt="장바구니">
+								</div>
+								<div class="productImg">
+									<img src="images/h1.jpg" alt="하프미러">
+								</div>
+								<p>하프미러</p>
+								<p>49,500원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#"></a>
+							<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+							<div class="productImg">
+								<img src="images/i1.jpg" alt="나리카 클리노미터">
+							</div>
+							<p>개구리알</p>
+							<p>285,900원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/e.jpg" alt="부레옥잠">
+								</div>
+								<p>부레옥잠</p>
+								<p>8,800원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay"><a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/f.png" alt="안면인식 열화상카메라">
+								</div>
+								<p>안면인식 열화상카메라</p>
+								<p>2,000,000원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="overlay">
+							<a href="#">
+								<div class="greyoverlay"><img src="images/cart.png" alt="장바구니"></div>
+								<div class="productImg">
+									<img src="images/d.jpg" alt="개미사육상자">
+								</div>
+								<p>개미사육상자</p>
+								<p>39,600원</p>
+							</a>
+						</div>
+					</li>
+
+				</ul>
 
 
 			</div>
 		</article>
 	</section>
-
+	<div class="seeMore2">
+		<a href="#">더보기</a>
+	</div>
 
 	<aside>
 		<!-- 사이드메뉴 top -->
@@ -190,8 +451,7 @@
 
 	</footer>
 
-
-
+	<!-- 드롭다운메뉴 -->
 
 
 
