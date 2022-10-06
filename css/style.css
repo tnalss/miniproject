@@ -15,12 +15,13 @@ body {
 * {
 	box-sizing: border-box;
 }
+
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+	font-variation-settings:
+		'FILL' 0,
+		'wght' 400,
+		'GRAD' 0,
+		'opsz' 48
 }
 
 .d-none {
@@ -31,19 +32,24 @@ h2 {
 	text-align: center;
 	font-size: 1.2rem;
 }
-.mt-100{
+
+.mt-100 {
 	margin-top: 5rem;
 }
-.md-50{
+
+.md-50 {
 	margin-bottom: 2.5rem;
 }
-.overflow{
+
+.overflow {
 	overflow: hidden;
 }
-.pos-relative{
+
+.pos-relative {
 	position: relative;
 }
-.pos-absolute{
+
+.pos-absolute {
 	position: absolute;
 }
 
@@ -63,7 +69,7 @@ h2 {
 	position: sticky;
 	/* padding-top: 32px;
 	top: -32px; */
-	top:0px;
+	top: 0px;
 	align-self: flex-start;
 	z-index: 1000;
 }
@@ -106,15 +112,17 @@ h2 {
 	border: none;
 
 }
-.tnb li:hover{
-	color: rgb(106, 94, 114);
+
+.tnb li:hover {
+	color: rgb(213, 87, 255);
 }
+
 .gnb {
 	display: flex;
 	column-gap: 2rem;
 	justify-content: center;
 	margin: 2rem auto 0 auto;
-	background-color: rgb(106, 94, 114);
+	background-color: rgb(52, 102, 237);
 	color: white;
 	/* padding: .7rem; */
 	font-size: 1.2rem;
@@ -123,7 +131,8 @@ h2 {
 .gnb li:hover {
 	color: black;
 }
-.gnb li{
+
+.gnb li {
 	padding: 0.8rem;
 }
 
@@ -162,108 +171,126 @@ h2 {
 
 
 /***상품***/
-.productsList{
+.productsList {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 	column-gap: 3rem;
-	
-}
-.productsList li{
-	position: relative;
-	
 
 }
-.productImg img{
-	max-width: 15rem;
-	
+
+.productsList li {
+	position: relative;
+
+
 }
-.greyoverlay{
-	position:absolute;
+
+.productImg img {
+	max-width: 15rem;
+
+}
+
+.greyoverlay {
+	position: absolute;
 	min-width: 15rem;
 	min-height: 15rem;
 	background-color: rgb(0, 0, 0, .3);
-	color:white;
+	color: white;
 	display: none;
 }
-.greyoverlay p{
+
+.greyoverlay p {
 	height: 5rem;
 	position: inherit;
 	top: calc(50% - 0.5rem);
 	left: calc(50% - 2.5rem);
 }
-.productsList li:hover .greyoverlay{
-	display:flex;
-}
-.productsList li:hover{
-	text-decoration: underline;
-}
-.overlay{
-	padding:1rem;
+
+.productsList li:hover .greyoverlay {
+	display: flex;
 }
 
-.seeMore1{
+.productsList li:hover {
+	text-decoration: underline;
+}
+
+.overlay {
+	padding: 1rem;
+}
+
+.seeMore1 {
 	width: 5rem;
 	font-size: 1.5rem;
-	color:white;
+	color: white;
 	background-color: black;
-	margin:2rem auto;
+	margin: 2rem auto;
 	text-align: center;
 }
-.seeMore2{
-	width:5rem;
+
+.seeMore2 {
+	width: 5rem;
 	font-size: 1.5rem;
-	color:white;
+	color: white;
 	background-color: black;
-	margin:2rem auto;
+	margin: 2rem auto;
 	text-align: center;
 }
-.height6{
+
+.height6 {
 	height: 40rem;
 }
 
 /*************aside****************/
 
-.dropMenu ul{
+.dropMenu ul {
 	width: 12rem;
-	border:1px solid black;
+	border: 1px solid black;
 	background-color: white;
-	color:black;
+	color: black;
 }
-.dropMenu2 ul{
+
+.dropMenu2 ul {
 	width: 12rem;
-	border:1px solid black;
+	border: 1px solid black;
 	background-color: white;
-	color:black;
+	color: black;
 }
-.dropMenu3 ul{
+
+.dropMenu3 ul {
 	width: 12rem;
-	border:1px solid black;
+	border: 1px solid black;
 	background-color: white;
-	color:black;
+	color: black;
 }
-.dr-none{
-	top:3rem;
+
+.dr-none {
+	top: 3rem;
 	display: none;
 }
-.dropMenu li:hover{
+
+.dropMenu li:hover {
 	background-color: #ddd;
 }
-.dropMenu2 li:hover{
+
+.dropMenu2 li:hover {
 	background-color: #ddd;
 }
-.dropMenu3 li:hover{
+
+.dropMenu3 li:hover {
 	background-color: #ddd;
 }
-.gnb li:nth-child(3):hover div{
-	display:block;
+
+.gnb li:nth-child(3):hover div {
+	display: block;
 }
-.gnb li:nth-child(4):hover div{
-	display:block;
+
+.gnb li:nth-child(4):hover div {
+	display: block;
 }
-.gnb li:nth-child(5):hover div{
-	display:block;
+
+.gnb li:nth-child(5):hover div {
+	display: block;
 }
 
 
@@ -271,135 +298,271 @@ h2 {
 
 
 /*************footer****************/
-footer{
+footer {
 	padding: 2rem 1rem 1rem 1rem;
 	background-color: #f3f3f3;
 }
+
 address {
 	text-align: center;
 	font-size: 0.8rem;
 }
-address p:nth-child(3){
-	font-size:.6rem;
+
+address p:nth-child(3) {
+	font-size: .6rem;
 }
+
 /*****sidenav***/
-.nav-side{
+.nav-side {
 	position: fixed;
 	right: 10%;
-	top:80%;
+	top: 80%;
 }
-.contact ul{
+
+.contact ul {
 	display: flex;
 	column-gap: .4rem;
 }
-.contact ul li img{
-	width:2rem;
+
+.contact ul li img {
+	width: 2rem;
 }
 
 /********회사소개*******/
-.company-intro h3{
+.company-intro h3 {
 	font-size: 2rem;
 	padding: 2rem;
 }
-.introduce{
+
+.introduce {
 	display: inline-block;
 }
-.ceoimg{
-	float:left;
-	
+
+.ceoimg {
+	float: left;
+
 }
-.ceoimg img{
+
+.ceoimg img {
 	height: 15rem;
 }
-.ceodetail{
-	
+
+.ceodetail {
+
 	text-align: left;
 }
-.ceodetail h4{
+
+.ceodetail h4 {
 	text-indent: 2rem;
 	font-size: 1.8rem;
 	margin-top: 2rem;
 }
-.ceodetail p{
+
+.ceodetail p {
 	font-size: 1.3rem;
 	padding-left: 14rem;
 
 }
-.ceodetail p::after{
+
+.ceodetail p::after {
 	clear: both;
 }
-.year-detail{
+
+.year-detail {
 	list-style: square;
 }
-.year-ul{
+
+.year-ul {
 	background-color: #f3f3f3;
 	padding: 1rem 0 1rem 0;
 
 }
-.year-detail{
+
+.year-detail {
 	text-align: left;
 	margin-left: 2rem;
 }
-.company-img img{
-	width:20rem;
+
+.company-img img {
+	width: 20rem;
 }
-.company-desc p{
+
+.company-desc p {
 	width: 30rem;
-	float:left;
+	float: left;
 	margin-left: 1rem;
 	margin-top: 1.5rem;
-	font-size:1.3rem;
+	font-size: 1.3rem;
 	text-align: left;
 }
-.deliveryimg img{
-	width:20rem;
+
+.deliveryimg img {
+	width: 20rem;
 }
-.deliveryinfo{
+
+.deliveryinfo {
 	margin-bottom: 3rem;
 }
+
 /********로그인************/
-.loginh{
+.loginh {
 	font-size: 2rem;
 	padding: 2rem;
 }
-.login-container{
+
+.login-container {
 
 	width: 35rem;
-	margin:0 auto;
+	margin: 0 auto;
 }
-.login-form{
+
+.login-form {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	margin-bottom: 3.5rem;
 }
-.login-table, .btn-table{
+
+.login-table,
+.btn-table {
 	min-width: 35rem;
-	margin:0 auto;
+	margin: 0 auto;
 	height: 10rem;
 }
-.login-table th{
-	
+
+.login-table th {
+
 	text-align: left;
 	text-indent: 8rem;
 }
-.login-table td{
+
+.login-table td {
 	text-align: left;
 }
 
-#uid,#upw{
-	padding:.7rem;
+#uid,
+#upw {
+	padding: .7rem;
 	font-size: 1rem;
 }
-#login-btn{
+
+#login-btn {
 	border-color: transparent;
-	background-color: black;
-	color:white;
+	background-color: #333;
+	color: white;
 	font-size: 2rem;
 	padding: .8rem;
 }
-.btn-table th,.btn-table td{
+
+.btn-table th,
+.btn-table td {
 	vertical-align: top;
+}
+
+/*******join************/
+.join-container h3 {
+	font-size: 1.3rem;
+	padding: 2rem;
+}
+
+.join-container h4 {
+	font-size: 1.2rem;
+	padding: 1rem 0 1rem 0;
+
+}
+
+.agree {
+	padding: 1rem 0 1rem 0;
+	text-align: right;
+}
+
+.policy,
+.privacy-policy {
+	width: 1190px;
+	height: 300px;
+	overflow: auto;
+	border: 1px solid black;
+	padding: 0 0.5em;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#joinType {
+	width: 50rem;
+	margin: 2rem auto;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid#333;
+
+}
+
+#joinType th,
+#joinType td {
+	padding: 1rem;
+}
+
+#basicInfo {
+	width: 50rem;
+	margin: 2rem auto;
+}
+
+#basicInfo td {
+	text-align: left;
+	text-indent: 1rem;
+	border-left: 1px solid #333;
+}
+
+#basicInfo tr,
+#basicInfo td {
+	border-top: 1px solid #333;
+	padding: .4rem;
+}
+
+#basicInfo tr:nth-child(8) {
+	border-bottom: 1px solid #333;
+}
+
+#basicInfo td input {
+	height: 1.4rem;
+	font-size: 1rem;
+}
+
+.btns {
+	display: flex;
+	justify-content: center;
+	column-gap: 1rem;
+	padding: 2rem .5rem;
+}
+
+[type=submit] {
+	background: #333;
+	border: 1px solid #333;
+	color: white;
+	padding:.8rem;
+	font-size: 1rem;
+}
+
+[type=reset] {
+	border: 1px solid #333;
+	padding:.8rem;
+	font-size: 1rem;
+}
+
+[name=sms] {
+	vertical-align: top;
+}
+
+label[for=upload] {
+	font-size: 0;
+}
+
+[name=phone1] {
+	font-size: 1rem;
+}
+
+[name=phone1],
+[name=phone2],
+[name=phone3] {
+	width: 3.5rem;
 }
 
 

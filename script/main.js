@@ -4,16 +4,16 @@ $(function () {
 
 window.addEventListener("DOMContentLoaded", function () {
 
-	const SEARCHBTN = document.querySelector("#searchBtn")
+	const SEARCHBTN = document.querySelector("#searchBtn");
 	const FIRST = document.querySelector(".first");
 	const SECOND = document.querySelector(".second");
 	const THIRD = document.querySelector(".third");
 	const EVENTS = document.querySelector(".events");
 	const SEEMORE1 = document.querySelector(".seeMore1");
 	const SEEMORE2 = document.querySelector(".seeMore2");
-	const CONTAINER1 = document.querySelector(".productheight1")
-	const CONTAINER2 = document.querySelector(".productheight2")
-	const CHOICE = document.querySelector(".greyoverlay")
+	const CONTAINER1 = document.querySelector(".productheight1");
+	const CONTAINER2 = document.querySelector(".productheight2");
+	const CHOICE = document.querySelector(".greyoverlay");
 
 	let count = 0;
 	let on1 = 0;
