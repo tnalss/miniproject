@@ -357,6 +357,51 @@ address p:nth-child(3){
 .deliveryinfo{
 	margin-bottom: 3rem;
 }
+/********로그인************/
+.loginh{
+	font-size: 2rem;
+	padding: 2rem;
+}
+.login-container{
+
+	width: 35rem;
+	margin:0 auto;
+}
+.login-form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 3.5rem;
+}
+.login-table, .btn-table{
+	min-width: 35rem;
+	margin:0 auto;
+	height: 10rem;
+}
+.login-table th{
+	
+	text-align: left;
+	text-indent: 8rem;
+}
+.login-table td{
+	text-align: left;
+}
+
+#uid,#upw{
+	padding:.7rem;
+	font-size: 1rem;
+}
+#login-btn{
+	border-color: transparent;
+	background-color: black;
+	color:white;
+	font-size: 2rem;
+	padding: .8rem;
+}
+.btn-table th,.btn-table td{
+	vertical-align: top;
+}
+
 
 
 /****미디어 태그****/
