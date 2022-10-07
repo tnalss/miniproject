@@ -478,8 +478,8 @@ address p:nth-child(3) {
 
 .policy,
 .privacy-policy {
-	width: 1190px;
-	height: 300px;
+	width: 50rem;
+	height: 15rem;
 	overflow: auto;
 	border: 1px solid black;
 	padding: 0 0.5em;
@@ -499,7 +499,9 @@ address p:nth-child(3) {
 #joinType td {
 	padding: 1rem;
 }
-
+label[for=agree-policy],label[for=agree-ipolicy]{
+	margin-right:5rem;
+}
 #basicInfo {
 	width: 50rem;
 	margin: 2rem auto;
@@ -627,6 +629,41 @@ label[for=upload] {
 	color:white;
 	background-color: black;
 }
+
+/****notice*******/
+.notice-table{
+	margin-bottom: 6rem;
+}
+.notice-table table{
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	width: 50rem;
+	margin: 4rem auto;
+}
+.notice-table table th{
+	border-bottom: 1px solid #333;
+	padding:.5rem;
+}
+.notice-table table td{
+	border-top: 1px solid #333;
+	padding:.3rem;
+}
+.notice-table h3{
+	font-size: 2rem;
+	margin-top: 3rem;
+}
+.noticeContent{
+	text-align: left;
+	background-color: #ddd;
+}
+.noticeContent p{
+	margin: 1rem 0 1rem 4rem;
+}
+.noticeTitle{
+	text-align: left;
+}
+
+
 /****미디어 태그****/
 @media screen and (max-width: 480px) {
 	body {
