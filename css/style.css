@@ -315,23 +315,34 @@ address p:nth-child(3) {
 /*****sidenav***/
 .nav-side {
 	position: fixed;
-	right: 10%;
-	top: 80%;
+	right: 7%;
+	top: 70%;
 }
 
 .contact ul {
 	display: flex;
 	column-gap: .4rem;
+	justify-content: space-around;
 }
 
 .contact ul li img {
 	width: 2rem;
 }
-
+.account{
+	text-align: center;
+	width:10rem;
+	padding:1rem;
+	background-color: cornsilk;
+	border-radius: 10%;
+	margin-bottom: 2rem;
+}
+.account p:nth-child(3){
+	font-size: .8rem;
+}
 /********회사소개*******/
 .company-intro h3 {
 	font-size: 2rem;
-	padding: 2rem;
+	padding: 4rem 2rem 2rem 2rem;
 }
 
 .introduce {
@@ -402,6 +413,21 @@ address p:nth-child(3) {
 
 .deliveryinfo {
 	margin-bottom: 3rem;
+}
+
+.student{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 1rem;
+	transition: all .3s;
+}
+
+.student div img{
+	width:25rem;
+}
+.student div:hover img{
+	transform: scale(1.2);
 }
 
 /********로그인************/
@@ -662,11 +688,103 @@ label[for=upload] {
 .noticeTitle{
 	text-align: left;
 }
+.noticeTitle:hover a{
+	text-decoration: underline;
+}
 
 
 /****미디어 태그****/
 @media screen and (max-width: 480px) {
 	body {
-		background-color: black;
+		font-size: 8px;
 	}
+	.gnb{
+		font-size: .8rem;
+		column-gap: .2rem;
+	}
+	.search{
+		display: none;
+	}
+	.mainlogo{
+		display: inline;
+	}
+	.logoimg{
+		margin: 2rem auto 0 auto;
+	}
+	.tnb{
+		font-size:1rem;
+	}
+	.productImg img{
+		max-width: 8rem;
+	}
+	.container{
+		min-width: 480px;
+	}
+	.overlay{
+		font-size: 1rem;
+	}
+	.productsList{
+		column-gap: 1rem;
+	}
+	.events,.pager,.nav-side{
+		display: none;
+	}
+	.mt-100,.md-50{
+		margin:1rem auto .5rem auto ;
+	}
+	.height6{
+		height:25rem;
+	}
+	.introduce{
+		display: block;
+	}
+	.ceoimg{
+		float: none;
+	}
+	.ceoimg img{
+		width: 10rem;
+		height: auto;
+	}
+	.ceodetail p {
+		padding:0;
+		margin: 0 1rem 0 1rem;
+		text-indent: 1rem;
+	}
+	.year-ul{
+		font-size: 1rem;
+	}
+	.company-intro h3{
+		font-size: 1.5rem;
+		padding:1rem;
+	}
+	.ceodetail{
+		float:none;
+	}
+	.ceodetail h4{
+		font-size: 1.3rem;
+	}
+	.student+p{
+		font-size: 1rem;
+	}
+	.student div:hover img{
+		transform: none;
+	}
+	.student div img{
+		width: 10rem;
+	}
+	.company-desc p{
+		float: none;
+		width: 450px;
+		margin: auto 1rem auto 1rem;
+		text-align: unset;
+	}
+
+	.company-introduce{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.deliveryinfo{
+		font-size: 1rem;
+	}
+	
 }

@@ -149,14 +149,18 @@
 		<!-- 사이드메뉴 -->
 		<nav class="nav-bar nav-side">
 			<div class="sidebar">
+				<div class="account">
+					<p>무통장 입금안내</p>
+					<p>농협은행 이주열</p>
+					<p>356-1361-9900-23</p>
+
+				</div>
 				<div class="contact">
 					<ul>
 						<!-- <li><img src="images/top.png" alt=""></li> -->
-						<li><a target="_blank" href="https://www.youtube.com/channel/UCnDLTTMGkYDXRNwYVNHRw2A"><img
-									src="images/youtube.png" alt="유튜브"></a></li>
-						<li><a target="_blank" href="https://blog.naver.com/maroo2510"><img src="images/blog.png"
-									alt="블로그"></a></li>
-						<li><a href="+821043244536"><img src="images/call.png" alt="전화"></a></li>
+						<li><a href="tel:+821043244536"><img src="images/call.png" alt="전화"></a></li>
+						<li><a target="_blank" href="https://www.youtube.com/channel/UCnDLTTMGkYDXRNwYVNHRw2A"><img src="images/youtube.png" alt="유튜브"></a></li>
+						<li><a target="_blank" href="https://blog.naver.com/maroo2510"><img src="images/blog.png" alt="블로그"></a></li>
 					</ul>
 
 				</div>
@@ -172,21 +176,7 @@
 			<p>COPYRIGHT&copy; 2022 MarooScience ALL RIGHTS RESERVED.</p>
 		</address>
 	</footer>
-	<script>
-		$(function () {
-			$(".order-now").click(function (e) {
-				e.preventDefault;
-				alert('로그인 후 구매 가능합니다.')
-			})
-			$(".cancel-order").click(function (e) {
-			
-				$(".cartlist").html("<table><tr><th>선택</th><th>품목</th><th>품목명</th><th>수량</th><th>가격</th><th>배송비</th></tr></table><div class='total'><p>총 상품 가격 : 0 원 + 0원 (배송비) = 0원</p><button class='order-now'>주문 하기</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='cancel-order'>취소</button></div>");
-			})
-
-		})
-
-
-	</script>
+	<script src="script/cart.js"></script>
 </body>
 
 </html>

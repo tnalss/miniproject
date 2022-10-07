@@ -160,7 +160,7 @@
 	</tr>
 	<tr>
 		<td colspan="4"  class ="2thnotice d-none noticeContent">
-			<p>이렇게 만든 게시판은 사실 qna에나 쓸모 있지</p>
+			<p>이렇게 만든 게시판은 사실 자주하는 질문에나 쓸모 있지</p>
 			<p>계속 글을 쓰고 지우는 성격에는 맞지 않지 않을까 싶다</p>
 		</td>
 
@@ -185,7 +185,7 @@
 
 
 </table>
-
+<p>1</p>
 			</div>
 
 		</article>
@@ -199,12 +199,18 @@
 		<!-- 사이드메뉴 -->
 		<nav class="nav-bar nav-side">
 			<div class="sidebar">
+				<div class="account">
+					<p>무통장 입금안내</p>
+					<p>농협은행 이주열</p>
+					<p>356-1361-9900-23</p>
+
+				</div>
 				<div class="contact">
 					<ul>
 						<!-- <li><img src="images/top.png" alt=""></li> -->
+						<li><a href="tel:+821043244536"><img src="images/call.png" alt="전화"></a></li>
 						<li><a target="_blank" href="https://www.youtube.com/channel/UCnDLTTMGkYDXRNwYVNHRw2A"><img src="images/youtube.png" alt="유튜브"></a></li>
 						<li><a target="_blank" href="https://blog.naver.com/maroo2510"><img src="images/blog.png" alt="블로그"></a></li>
-						<li><a href="+821043244536"><img src="images/call.png" alt="전화"></a></li>
 					</ul>
 
 				</div>
@@ -220,37 +226,9 @@
 			<p>COPYRIGHT&copy; 2022 MarooScience ALL RIGHTS RESERVED.</p>
 		</address>
 	</footer>
-	<!-- <script src="script/main.js"></script> -->
+	<script src="script/notice.js"></script>
 
-	<script>
-		$(function(){
-			$(".5thnoticeTitle").click(function(e){
-				e.preventDefault();
-				$(".5thnotice").toggleClass("d-none");
-			})
-			$(".4thnoticeTitle").click(function(e){
-				e.preventDefault();
-				$(".4thnotice").toggleClass("d-none");
-			})
-			$(".3thnoticeTitle").click(function(e){
-				e.preventDefault();
-				$(".3thnotice").toggleClass("d-none");
-			})
-
-			$(".2thnoticeTitle").click(function(e){
-				e.preventDefault();
-				$(".2thnotice").toggleClass("d-none");
-			})
-			$(".1thnoticeTitle").click(function(e){
-				e.preventDefault();
-				$(".1thnotice").toggleClass("d-none");
-			})
-
-
-		})
-
-
-	</script>
+	
 </body>
 
 </html>
