@@ -564,9 +564,69 @@ label[for=upload] {
 [name=phone3] {
 	width: 3.5rem;
 }
+/************order***************/
+
+.ordercheck{
+	margin-top: 3rem;
+}
+.ordercheck h2{
+	font-size: 2rem;
+}
+.ordercheck>p{
+	font-size:1.2rem;
+	margin: 1rem auto 1rem auto;
+}
+.gologin{
+	border: 1px solid black;
+	width: 15rem;
+	margin:3rem auto 5rem auto;
+	padding:1rem;
+}
+.gologin:hover{
+	background-color: black;
+	color: white;
+}
 
 
 
+/***************cart*************/
+.cart-table table{
+	width: 50rem;
+	margin:2rem auto;
+}
+.cart-table h2{
+	font-size: 2rem;
+	margin: 3rem auto 3rem auto;
+}
+.cart-table table td{
+	vertical-align: middle;
+	padding:1rem;
+	border-top: 1px solid #333;
+}
+.cart-table table{
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+.cart-table table th{
+	padding:1rem;
+}
+
+.cart-table table img{
+	width: 5rem;
+}
+.total{
+	font-size: 1.2rem;;
+}
+.total button{
+	border:none;
+	font-size:1.5rem;
+	padding:1rem;
+	margin : 2rem auto 2rem auto;
+}
+.total button:hover{
+	color:white;
+	background-color: black;
+}
 /****미디어 태그****/
 @media screen and (max-width: 480px) {
 	body {
