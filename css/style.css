@@ -340,6 +340,11 @@ address p:nth-child(3) {
 	font-size: .8rem;
 }
 /********회사소개*******/
+#map{
+	width:25rem;
+	height:20rem;
+	margin:0 auto;
+}
 .company-intro h3 {
 	font-size: 2rem;
 	padding: 4rem 2rem 2rem 2rem;
